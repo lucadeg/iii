@@ -10,7 +10,7 @@ workers:
         #   file_path: ./data/stream_store
         name: redis
         config:
-          redis_url: redis://localhost:6379
+          redis_url: redis://localhost:63790
 
   - name: iii-state
     config:
@@ -133,7 +133,7 @@ workers:
       adapter:
         name: redis
         config:
-          redis_url: redis://localhost:6379
+          redis_url: redis://localhost:63790
 
   - name: iii-pubsub
     config:
